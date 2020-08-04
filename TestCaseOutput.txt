@@ -1,0 +1,94 @@
+
+TEST CASES
+case	branch1	branch2	branch3	pairings
+1	ad	bf	ch	3
+2	ae	bg	ch	3
+3	dj	fk	ch	3
+4	ej	gk	ch	3
+5	ad	bg	ci	3
+6	ae	bf	ci	3
+7	dj	gk	ci	3
+8	ej	fk	ci	3
+9	ad	fk	hi	3
+10	ae	gk	hi	3
+11	dj	bf	hi	3
+12	ej	bg	hi	3
+13	ad	gk	ih	3
+14	ae	fk	ih	3
+15	dj	bg	ih	3
+16	ej	bf	ih	3
+17	ad	bf	hl	2
+18	ae	bg	hl	2
+19	dj	fk	hl	2
+20	ej	gk	hl	2
+21	ad	bg	il	2
+22	ae	bf	il	2
+23	dj	gk	il	2
+24	ej	fk	il	2
+
+PAIRING DETAILS
+var1	var2	value1	value2	appearances	cases
+branch3	branch1	ch	ad	1	1
+branch3	branch1	ch	ae	1	2
+branch3	branch1	ch	dj	1	3
+branch3	branch1	ch	ej	1	4
+branch3	branch1	ci	ad	1	5
+branch3	branch1	ci	ae	1	6
+branch3	branch1	ci	dj	1	7
+branch3	branch1	ci	ej	1	8
+branch3	branch1	hi	ad	1	9
+branch3	branch1	hi	ae	1	10
+branch3	branch1	hi	dj	1	11
+branch3	branch1	hi	ej	1	12
+branch3	branch1	ih	ad	1	13
+branch3	branch1	ih	ae	1	14
+branch3	branch1	ih	dj	1	15
+branch3	branch1	ih	ej	1	16
+branch3	branch1	hl	ad	1	17
+branch3	branch1	hl	ae	1	18
+branch3	branch1	hl	dj	1	19
+branch3	branch1	hl	ej	1	20
+branch3	branch1	il	ad	1	21
+branch3	branch1	il	ae	1	22
+branch3	branch1	il	dj	1	23
+branch3	branch1	il	ej	1	24
+branch3	branch2	ch	bf	1	1
+branch3	branch2	ch	bg	1	2
+branch3	branch2	ch	fk	1	3
+branch3	branch2	ch	gk	1	4
+branch3	branch2	ci	bf	1	6
+branch3	branch2	ci	bg	1	5
+branch3	branch2	ci	fk	1	8
+branch3	branch2	ci	gk	1	7
+branch3	branch2	hi	bf	1	11
+branch3	branch2	hi	bg	1	12
+branch3	branch2	hi	fk	1	9
+branch3	branch2	hi	gk	1	10
+branch3	branch2	ih	bf	1	16
+branch3	branch2	ih	bg	1	15
+branch3	branch2	ih	fk	1	14
+branch3	branch2	ih	gk	1	13
+branch3	branch2	hl	bf	1	17
+branch3	branch2	hl	bg	1	18
+branch3	branch2	hl	fk	1	19
+branch3	branch2	hl	gk	1	20
+branch3	branch2	il	bf	1	22
+branch3	branch2	il	bg	1	21
+branch3	branch2	il	fk	1	24
+branch3	branch2	il	gk	1	23
+branch1	branch2	ad	bf	2	1, 17
+branch1	branch2	ad	bg	2	5, 21
+branch1	branch2	ad	fk	1	9
+branch1	branch2	ad	gk	1	13
+branch1	branch2	ae	bf	2	6, 22
+branch1	branch2	ae	bg	2	2, 18
+branch1	branch2	ae	fk	1	14
+branch1	branch2	ae	gk	1	10
+branch1	branch2	dj	bf	1	11
+branch1	branch2	dj	bg	1	15
+branch1	branch2	dj	fk	2	3, 19
+branch1	branch2	dj	gk	2	7, 23
+branch1	branch2	ej	bf	1	16
+branch1	branch2	ej	bg	1	12
+branch1	branch2	ej	fk	2	8, 24
+branch1	branch2	ej	gk	2	4, 20

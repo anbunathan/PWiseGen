@@ -1,0 +1,1 @@
+[ ("ae","bg","hl"),("ej","fk","ci"),("dj","bg","ih"),("ad","bf","ch"),("dj","gk","il"),("ae","gk","hi") ]
